@@ -51,7 +51,9 @@ dnf install -y \
   xorg-x11-drv-nvidia-cuda \
   nvidia-settings \
   code \
-  joplin
+  joplin \
+  tesseract-langpack-deu \
+  sane-backends-drivers-scanners
 
 # Enable kde boot
 systemctl enable sddm
