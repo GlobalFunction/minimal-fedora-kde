@@ -54,7 +54,8 @@ dnf install -y \
   joplin \
   tesseract-langpack-deu \
   sane-backends-drivers-scanners \
-  hunspell-de
+  hunspell-de \
+  okular
 
 # Enable kde boot
 systemctl enable sddm
