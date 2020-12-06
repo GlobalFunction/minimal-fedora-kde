@@ -55,7 +55,8 @@ dnf install -y \
   tesseract-langpack-deu \
   sane-backends-drivers-scanners \
   hunspell-de \
-  okular
+  okular \
+  vim
 
 # Enable kde boot
 systemctl enable sddm
