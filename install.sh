@@ -56,7 +56,8 @@ dnf install -y \
   sane-backends-drivers-scanners \
   hunspell-de \
   okular \
-  vim
+  vim \
+  htop
 
 # Enable kde boot
 systemctl enable sddm
