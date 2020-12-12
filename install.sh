@@ -57,7 +57,8 @@ dnf install -y \
   hunspell-de \
   okular \
   vim \
-  htop
+  htop \
+  git
 
 # Enable kde boot
 systemctl enable sddm
